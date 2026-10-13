@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# 回测结果图（生成产物）
+backtest_chart.html
+
+# 策略（白名单：只提交双均线示例）
+strategies/*
+!strategies/__init__.py
+!strategies/double_ma_strategy.py
